@@ -1,0 +1,1 @@
+A baseline Docker image for Swift on Ubuntu 15.10. Open to suggestions.
