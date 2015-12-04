@@ -6,7 +6,8 @@ RUN apt-get install -y \
   wget \
   rsync \
   clang \
-  libicu-dev
+  libicu-dev \
+  libpython2.7-dev
   
 ENV SWIFT_VERSION 2.2-SNAPSHOT-2015-12-01-b
 ENV SWIFT_PLATFORM ubuntu15.10
