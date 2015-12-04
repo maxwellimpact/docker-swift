@@ -1,4 +1,4 @@
-A baseline Docker image for Swift on Ubuntu. Open to suggestions.
+A baseline Docker image for Swift on Ubuntu. Open to suggestions and pull requests.
  
  
 ```
