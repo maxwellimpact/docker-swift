@@ -1,8 +1,9 @@
-A baseline Docker image for Swift on Ubuntu. Open to suggestions and pull requests.
+A Docker image for Swift on Ubuntu. Tried to install as little as possible onto the base Ubuntu image. Open to suggestions and pull requests.
  
+Here's an example Dockerfile for building the Dealer sample project from Apple:
  
 ```
-from swiftlang/base
+from dockerswift/swift
 
 RUN apt-get install -y git
 
