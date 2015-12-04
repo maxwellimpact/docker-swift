@@ -1,9 +1,12 @@
 from ubuntu:15.10
 
-RUN apt-get -y update && apt-get install -y \
+RUN apt-get -y update
+
+RUN apt-get install -y \
   wget \
   rsync \
-  clang 
+  clang \
+  libicu-dev
   
 ENV SWIFT_VERSION 2.2-SNAPSHOT-2015-12-01-b
 ENV SWIFT_PLATFORM ubuntu15.10
