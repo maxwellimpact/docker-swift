@@ -11,5 +11,5 @@ RUN git clone https://github.com/apple/example-package-dealer.git
 WORKDIR /example-package-dealer
 RUN swift build
 
-RUN .build/debug/Dealer
+CMD [".build/debug/Dealer"]
 ```
