@@ -1,4 +1,4 @@
-from ubuntu:15.10
+from ubuntu:14.04
 
 RUN apt-get -y update
 
@@ -6,11 +6,12 @@ RUN apt-get install -y \
   wget \
   rsync \
   clang \
-  libicu-dev
+  libicu-dev \
+  libedit-dev
   
 ENV SWIFT_VERSION 2.2-SNAPSHOT-2015-12-01-b
-ENV SWIFT_PLATFORM ubuntu15.10
-ENV SWIFT_PLATFORM_FOLDER ubuntu1510
+ENV SWIFT_PLATFORM ubuntu14.04
+ENV SWIFT_PLATFORM_FOLDER ubuntu1404
   
 RUN wget -q -O - https://swift.org/keys/all-keys.asc | gpg --import -
 
