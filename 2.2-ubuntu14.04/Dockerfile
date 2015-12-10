@@ -4,6 +4,7 @@ RUN apt-get -y update
 
 RUN apt-get install -y \
   wget \
+  git \
   rsync \
   clang \
   libicu-dev \
