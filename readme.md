@@ -5,8 +5,6 @@ Here's an example Dockerfile for building the Dealer sample project from Apple:
 ```
 from dockerswift/swift
 
-RUN apt-get install -y git
-
 RUN git clone https://github.com/apple/example-package-dealer.git
 WORKDIR /example-package-dealer
 RUN swift build
