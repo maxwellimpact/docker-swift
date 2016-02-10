@@ -9,7 +9,7 @@ RUN apt-get -y update && apt-get install -y \
   libedit-dev \
   libpython2.7-dev
   
-ENV SWIFT_VERSION 2.2-SNAPSHOT-2015-12-01-b
+ENV SWIFT_VERSION 2.2-SNAPSHOT-2016-02-08-a
 ENV SWIFT_PLATFORM ubuntu14.04
 ENV SWIFT_PLATFORM_FOLDER ubuntu1404
   
