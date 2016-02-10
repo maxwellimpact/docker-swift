@@ -8,7 +8,7 @@ RUN apt-get -y update && apt-get install -y \
   libicu-dev \
   libpython2.7-dev
   
-ENV SWIFT_VERSION 2.2-SNAPSHOT-2015-12-01-b
+ENV SWIFT_VERSION 2.2-SNAPSHOT-2016-02-08
 ENV SWIFT_PLATFORM ubuntu15.10
 ENV SWIFT_PLATFORM_FOLDER ubuntu1510
   
